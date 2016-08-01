@@ -23,22 +23,27 @@ function ClickPic() {
 
 }
 
-var Img = $(".ImageDate");
+function OnTargetHover() {
+	// $(".ImageDate").hover(function (e) {
+	// 	$(".Date").css("display", "block");
+	// });
 
-Img.hover(function (e) {
-	$(".Date").css("opacity", "1");
-});
+	var Img = $(".ImageDate");
 
-Img.mouseenter(function (e) {
-	$(".Date").css("opacity", "1");
-});
+	Img.hover(function (e) {
+		$(".Date").css("opacity", "1");
+	});
 
-Img.click(function (e) {
-	$(".Date").css("opacity", "1");
-});
+	Img.mouseenter(function (e) {
+		$(".Date").css("opacity", "1");
+	});
 
-Img.mouseleave(function () {
-	$(".Date").css("opacity", "0", "overflow", "hidden");
-});
+	Img.click(function (e) {
+		$(".Date").css("opacity", "1");
+	});
+
+	Img.mouseleave(function () {
+		$(".Date").css("opacity", "0", "overflow", "hidden");
+	});
 
 }
