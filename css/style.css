@@ -40,7 +40,6 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
     background-color: ghostwhite;
     border-bottom: 1px double floralwhite;
     margin-bottom: 35px;
