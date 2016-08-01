@@ -125,6 +125,7 @@ header h1 {
     z-index: 99;
     opacity: 1;
     overflow: hidden;
+    text-decoration: none;
 }
 .ImageDate:target {
     width: 100%;
