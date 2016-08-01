@@ -20,24 +20,23 @@ function ClickPic() {
 			location.hash = "#Img" + ImgNum;
 		}
 	});
-}
 
-var Img = $(".ImageDate");
-
-Img.hover(function (e) {
-	$(".Date").css("opacity", "1");
-});
-
-Img.mouseenter(function (e) {
-	$(".Date").css("opacity", "1");
-});
-
-Img.click(function (e) {
-	$(".Date").css("opacity", "1");
-});
-
-Img.mouseleave(function () {
-	$(".Date").css("opacity", "0", "overflow", "hidden");
-});
-
+	
+	var Img = $(".ImageDate");
+	
+	Img.hover(function (e) {
+		$(".Date").css("opacity", "1");
+	});
+	
+	Img.mouseenter(function (e) {
+		$(".Date").css("opacity", "1");
+	});
+	
+	Img.click(function (e) {
+		$(".Date").css("opacity", "1");
+	});
+	
+	Img.mouseleave(function () {
+		$(".Date").css("opacity", "0", "overflow", "hidden");
+	});
 }
