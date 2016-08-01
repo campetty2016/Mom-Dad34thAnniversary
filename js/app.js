@@ -24,9 +24,6 @@ function ClickPic() {
 }
 
 function OnTargetHover() {
-	// $(".ImageDate").hover(function (e) {
-	// 	$(".Date").css("display", "block");
-	// });
 
 	var Img = $(".ImageDate");
 
