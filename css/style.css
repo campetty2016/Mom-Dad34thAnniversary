@@ -30,7 +30,7 @@
 #wrapper {
     background-color: hsla(186, 12%, 84%, 0.28);
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-bottom: 200px;
 }
 header {
@@ -124,6 +124,7 @@ header h1 {
     background-color: transparent;
     z-index: 99;
     opacity: 1;
+    text-decoration: none;
     overflow: hidden;
 }
 .ImageDate:target {
