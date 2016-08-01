@@ -152,6 +152,7 @@ p {
     text-align: center;
     text-shadow: 1px 1px 1px white, 1px 1px 1px black;
     font-size: 125%;
+    font-family:'Playball', cursive;
 }
 .fa-heart {
     color: rgba(255, 0, 0, .59);
