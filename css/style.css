@@ -49,6 +49,7 @@ header h1 {
     text-align: center;
     color: black;
     text-shadow: 1px 1px 1px whitesmoke, 1px 1px 1px white, 1px 1px 1px red, 1px 1px 1px black;
+    font-family: font-family: 'Playball', cursive;
 }
 .Quilt {
     margin: auto;
