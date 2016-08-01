@@ -19,7 +19,6 @@
 		m = l.toString,
 		n = m.call(Object),
 		o = {};
-
 	function p(a, b) {
 		b = b || d;
 		var c = b.createElement("script");
