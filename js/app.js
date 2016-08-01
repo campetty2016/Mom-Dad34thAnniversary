@@ -20,7 +20,6 @@ function ClickPic() {
 			location.hash = "#Img" + ImgNum;
 		}
 	});
-
 }
 
 var Img = $(".ImageDate");
